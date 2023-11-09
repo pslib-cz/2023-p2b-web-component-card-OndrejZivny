@@ -1,8 +1,12 @@
+@import url(../font/style.css);
+
 body{
     background-image: url(../img/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+
+
 }
 .Card_teacher{
     width: 15em;
@@ -12,7 +16,6 @@ body{
     padding: 0.5em;
     background-color: white;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.421);
-
 }
 .Foto_Ucitele{
     width:60%;
@@ -33,4 +36,12 @@ body{
     margin: 5px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
+}
+.icon-mobil{
+    color: red;
+}
+.Card-box{
+    overflow: auto;
+    white-space: nowrap;
+
 }
